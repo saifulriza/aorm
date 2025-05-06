@@ -8,7 +8,9 @@ export default defineConfig({
       entry: resolve(__dirname, "src/index.ts"),
       name: "AORM",
       fileName: (format) =>
-        `aorm.${format === "umd" ? "umd.js" : format === "es" ? "js" : "cjs"}`,
+        `array-orm.${
+          format === "umd" ? "umd.js" : format === "es" ? "js" : "cjs"
+        }`,
       formats: ["es", "cjs", "umd"],
     },
     sourcemap: true,
