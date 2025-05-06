@@ -1,5 +1,5 @@
 {
-  "name": "aorm",
+  "name": "array-orm",
   "version": "0.1.0",
   "description": "Active Object Relational Mapping - A lightweight reactive data management library",
   "type": "module",
@@ -23,7 +23,13 @@
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage"
   },
-  "keywords": ["orm", "data", "reactive", "state", "javascript"],
+  "keywords": [
+    "orm",
+    "data",
+    "reactive",
+    "state",
+    "javascript"
+  ],
   "author": "",
   "license": "MIT",
   "devDependencies": {
@@ -40,5 +46,9 @@
   "dependencies": {
     "jsdom": "^26.1.0",
     "vite-plugin-dts": "^4.5.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saifulriza/aorm.git"
   }
 }
