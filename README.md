@@ -1,4 +1,4 @@
-# AORM - Active Object Relational Mapping
+# Array-ORM - Active Object Relational Mapping
 
 ![Version](https://img.shields.io/badge/version-0.1.0-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
@@ -18,22 +18,22 @@ A lightweight reactive data management library that works seamlessly across all 
 
 ```bash
 # Using npm
-npm install aorm
+npm install array-orm
 
 # Using yarn
-yarn add aorm
+yarn add array-orm
 
 # Using pnpm
-pnpm add aorm
+pnpm add array-orm
 
 # Using bun
-bun add aorm
+bun add array-orm
 ```
 
 ## Quick Start
 
 ```javascript
-import AORM from "aorm";
+import AORM from "array-orm";
 
 // Create a collection
 const users = new AORM([
@@ -551,7 +551,7 @@ AORM works seamlessly across all JavaScript environments:
 <html>
   <head>
     <title>AORM Browser Example</title>
-    <script src="https://cdn.example.com/aorm/dist/aorm.umd.js"></script>
+    <script src="https://cdn.example.com/array-orm/dist/array-orm.umd.js"></script>
     <script>
       document.addEventListener("DOMContentLoaded", function () {
         // AORM is available as a global variable
@@ -573,6 +573,8 @@ AORM works seamlessly across all JavaScript environments:
         document
           .getElementById("addUserBtn")
           .addEventListener("click", function () {
+          .getElementById("addUserBtn")
+          .addEventListener("click", function () {
             users.push({ id: 3, name: "Carol", age: 25 });
           });
       });
@@ -590,7 +592,7 @@ AORM works seamlessly across all JavaScript environments:
 
 ```js
 // Require syntax for CommonJS
-const AORM = require("aorm");
+const AORM = require("array-orm");
 
 // Create a collection with data
 const products = new AORM([
@@ -625,7 +627,7 @@ unsubscribe();
 
 ```js
 // Import syntax for ESM
-import AORM from "aorm";
+import AORM from "array-orm";
 
 // Sample data
 const tasks = new AORM([
@@ -649,7 +651,7 @@ tasks.push({ id: 3, title: "Deploy to production", completed: false });
 ### TypeScript Usage
 
 ```ts
-import AORM from "aorm";
+import AORM from "array-orm";
 
 interface User {
   id: number;
@@ -678,7 +680,7 @@ users.subscribe((data: User[]) => {
 
 ```jsx
 import { useState, useEffect } from "react";
-import AORM from "aorm";
+import AORM from "array-orm";
 
 function UserList() {
   // Create AORM store outside component to persist between renders

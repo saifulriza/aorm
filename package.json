@@ -3,16 +3,16 @@
   "version": "0.1.0",
   "description": "Active Object Relational Mapping - A lightweight reactive data management library",
   "type": "module",
-  "main": "dist/aorm.cjs",
-  "module": "dist/aorm.js",
-  "browser": "dist/aorm.umd.js",
+  "main": "dist/array-orm.cjs",
+  "module": "dist/array-orm.js",
+  "browser": "dist/array-orm.umd.js",
   "types": "dist/index.d.ts",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "browser": "./dist/aorm.umd.js",
-      "import": "./dist/aorm.js",
-      "require": "./dist/aorm.cjs"
+      "browser": "./dist/array-orm.umd.js",
+      "import": "./dist/array-orm.js",
+      "require": "./dist/array-orm.cjs"
     }
   },
   "scripts": {
